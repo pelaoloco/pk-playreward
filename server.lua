@@ -28,7 +28,6 @@ Citizen.CreateThread(function()
                 xPlayer.addMoney(cantidadDinero)
                 exports.ox_inventory:AddItem(1, itemRecompensa, cantidadItem)
                 DiscordLog('PK SCRIPTS', 'Playtime Reward', 'El jugador **'..stim..'** ha recibido su recompensa por el tiempo de juego! \n Dinero: **'..cantidadDinero..'** \n Item: **'..itemRecompensa..'** \n Cantidad de item: **'..cantidadItem..'**', 'pelaoloko')
-                TriggerClientEvent('pk:notifs', '¡Has recibido una recompensa por tu tiempo jugado!')
             end
         end
     end
