@@ -4,7 +4,7 @@ Un sistema de beneficio al jugador por tiempo jugado en tu servidor.
 ## 🥅 Requisitos
 
 - ESX Legacy
-- ox_lib (en el servidor)
+- ox_lib
 
 
 ## 💭 Descripción
